@@ -1,0 +1,61 @@
+/*CSS é a sigla para Cascading Style Sheets (em português, Folhas de Estilo em Cascata), 
+que permite que você especifique qual deve ser a aparência de sua página.*/
+body {
+    font-family: monospace;
+}
+ul {
+    font-family: helvética;
+}
+li {
+    list-style: circle;
+}
+.list{
+    list-style: square;
+}
+/*#msg {
+    font-family: monospace;
+}*/
+
+.light-theme {
+    --bg: var(--green);
+    --fonColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}/*O seletor de :root representa o elemento <html> na página HTML.
+Para esse tipo de tarefa, uma melhor prática é definir um conjunto de variáveis CSS globais no elemento :root.
+Aqui, você define três variáveis de cor anexadas à raiz da página.*/
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black)
+} /*bg e fontColor, para especificar a cor da tela de fundo e a cor da fonte.
+Use a palavra-chave var para especificar as variáveis que serão usadas como valores de propriedade.*/
+* {
+    color: var(--fontColor);
+}
+body {
+    background: var(--bg);
+}
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+} 
+.btn {
+position: absolute;
+top: 20px;
+left: 250px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+border: none;
+color: var(--btnFontColor);
+background-color: var(--btnBg);
+}
+.btn:focus {outline-style:none;}

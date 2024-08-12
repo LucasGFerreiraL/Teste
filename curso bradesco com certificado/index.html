@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!--O tipo de documento <!DOCTYPE html> indica que este código é HTML5.-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--o UTF-8 serve para estabelecer o modo como os computadores interpreta os caracteres-->
+        <title>Simples website</title> <!--o título é utilizado por mecanismos de pesquisa e exibido neles.-->
+        <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="light-theme">
+    <h1>Task list</h1>
+    <p id="msg"> Current task:</p>
+    <ul>
+        <li class="list"> add visual styles</li>
+        <li class="list">Add light dark themes</li>
+        <li>Enable switchin the theme</li>
+    </ul> <!--UL é Para indicar que determinados elementos são listas ou itens de uma lista-->
+
+    <!--Um atributo de ID (usado no <p>) pode ser empregado para estilizar um elemento, 
+    enquanto o atributo de classe (usado no <li>) é usado para estilizar todos os elementos da mesma classe.
+
+    Cada elemento <li> de item de lista é agrupado em uma lista não ordenada <ul>.-->
+    
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view full site</noscript>
+<!--Usar o elemento <noscript> é um exemplo de tolerância a falhas ou degradação gradual.
+        Podemos detectar quando um recurso não é compatível
+        ou não está disponível e nos planejar para essa eventualidade.-->
+</body>
+
+</html>

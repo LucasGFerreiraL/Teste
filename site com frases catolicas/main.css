@@ -1,0 +1,36 @@
+h1, h2, p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.MSWvLz7G_0KHPZ0lngPRQgHaE8?rs=1&pid=ImgDetMain");
+    
+}
+.front {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*padding: 20px; ( caso todos os lados sejam iguais*/
+    max-width: 630px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+a {
+    color:black
+}
+.pe {
+    background-color: rgb(185, 107, 34);
+    margin-top: -15px;
+    margin-bottom: 0px;
+
+}
